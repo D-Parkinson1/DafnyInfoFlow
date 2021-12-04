@@ -1,0 +1,7 @@
+repos:
+-   repo: https://github.com/dotnet/format
+    rev: v5.1.225507
+    hooks:
+    -   id: dotnet-format
+        entry: dotnet-format Source/Dafny.sln -w --
+        
